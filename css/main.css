@@ -1,0 +1,67 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 Merriweather;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.links {
+  background-color: #d05c2e;
+}
+
+article {
+text-decoration: none;
+}
+
+image {
+  width: 40px;
+  background-color: #d05c2e;
+}
+
+.grains {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #fff;
+  font-family: 700;
+  text-align: center;
+  font-size: 2rem;
+}
+
+ul {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 400;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: .4rem 0;
+}
+
+a:hover {
+  background-color: #a63f38;
+}
