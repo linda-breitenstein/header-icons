@@ -9,6 +9,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 header {
 text-decoration: none;
 background-color: #d05c2e;
