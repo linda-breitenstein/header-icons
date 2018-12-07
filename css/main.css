@@ -14,9 +14,9 @@ body {
 }
 
 header {
-text-decoration: none;
-background-color: #d05c2e;
-text-align: center;
+  text-decoration: none;
+  background-color: #d05c2e;
+  text-align: center;
 }
 
 .image {
@@ -30,7 +30,6 @@ text-align: center;
 
 .title .grain {
   display: flex;
-  align-items: center;
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -52,7 +51,7 @@ text-align: center;
 h1 {
   color: #fff;
   font-family: Merriweather, serif;
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
   font-size: 2rem;
   flex-grow: 2;
@@ -64,7 +63,7 @@ ul {
   display: flex;
   color: #fff;
   font-size: 1.125rem;
-  font-weight: 400;
+  font-weight: normal;
   list-style-type: none;
   padding: 0;
   margin: 0;
