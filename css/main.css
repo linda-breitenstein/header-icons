@@ -9,27 +9,40 @@ html {
   box-sizing: inherit;
 }
 
-.links {
-  background-color: #d05c2e;
-}
-
 article {
 text-decoration: none;
+background-color: #d05c2e;
+text-align: center;
 }
 
-image {
+.image {
   width: 40px;
-  background-color: #d05c2e;
 }
 
-.grains {
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.title .grain {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.grain {
+  flex-wrap: nowrap;
   flex-direction: row;
+  display: flex;
 }
 
 .nav {
-  display: flex;
-  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background-color: #d05c2e;
+  align-items: center;
 }
 
 h1 {
@@ -37,29 +50,36 @@ h1 {
   font-family: 700;
   text-align: center;
   font-size: 2rem;
+  flex-grow: 2;
+  margin: 0;
+  padding: .5em 0;
 }
 
 ul {
-  display: inline-block;
+  display: flex;
   color: #fff;
   font-size: 1.125rem;
   font-weight: 400;
   list-style-type: none;
   padding: 0;
   margin: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 li {
   display: inline-block;
   text-align: center;
+  flex-grow: 1;
 }
 
 a {
   text-align: center;
   text-decoration: none;
   color: #fff;
-  display: inline-block;
+  display: block;
   padding: .4rem 0;
+  border: 1px solid #a63f38;
 }
 
 a:hover {
